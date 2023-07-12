@@ -1,0 +1,15 @@
+# This is example locale file for English language.
+# Disbotter follows discord schema for locale names. (https://discord.com/developers/docs/reference#locales)
+
+# Fallback locale must have internal key, which is used for internal errors.
+# In every other locale not all keys are required, but it is recommended to have all of them.
+# In case of missing key, fallback locale will be used.
+internal:
+    command:
+        error: "There was an error while executing this command!"
+
+commands:
+    # Example of multiline string with variables.
+    ping: |
+        Pong!
+        And also, Hi {{user}}!
